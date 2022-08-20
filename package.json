@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "nodemon index.js"
+    "server": "nodemon index.js",
+    "start": "node index.js"
   },
   "author": "Sachin",
   "license": "ISC",
@@ -21,5 +22,8 @@
   },
   "devDependencies": {
     "concurrently": "^7.2.1"
+  },
+  "engines": {
+    "node": "12.22.12"
   }
 }
